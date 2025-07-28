@@ -43,4 +43,7 @@ const fadeObserver = new IntersectionObserver(entries => {
 }, { threshold: 0.3 });
 
 fadeInElements.forEach(el => fadeObserver.observe(el));
+<<<<<<< HEAD
 
+=======
+>>>>>>> ef76a83 (Fixing image display and permissions)
